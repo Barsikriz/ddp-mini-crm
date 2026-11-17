@@ -1,0 +1,24 @@
+# Build
+build/
+bin/
+*.o
+*.a
+*.so
+
+# Environment / secrets
+.env
+
+# Generated tooling
+compile_commands.json
+.cache/
+
+# Runtime
+*.log
+*.pid
+
+# Generated exports
+data/export/
+
+# OS/editor
+.DS_Store
+Thumbs.db
